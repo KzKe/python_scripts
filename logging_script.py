@@ -16,8 +16,11 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S',
                     level=logging.INFO,
-                    filename='test.log')
-logging.warning('warning!!!')
+                    filename='test.log'
+                    )
+
+i = 101111
+logging.warning('warning!!! {0}'.format(i))
 logging.info('this is info!')
 logger.debug('debug message')
 logger.info('info message')
