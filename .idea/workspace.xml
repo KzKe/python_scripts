@@ -11,10 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a096616d-8094-4802-be2a-988eae6f1f70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms_script/fasttext_script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms_script/torch_text_classfication/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms_script/torch_text_classfication/models/bert_script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms_script/torch_text_classfication/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms_script/torch_text_classfication/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms_script/torch_text_classfication/train_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages_script/torchsnooper_script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/fasttext.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages_script/logging_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages_script/logging_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_script/Fasttext_dir/.ipynb_checkpoints/fasttext_notebook-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_script/Fasttext_text_classification/.ipynb_checkpoints/fasttext_notebook-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_script/Fasttext_dir/fasttext_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_script/Fasttext_text_classification/fasttext_notebook.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_script/Fasttext_dir/fasttext_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_script/Fasttext_text_classification/fasttext_script.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +55,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algorithms_script/torch_text_classfication" />
+      <recent name="$PROJECT_DIR$/algorithms_script/torch_text_classfication/models" />
+      <recent name="$PROJECT_DIR$/algorithms_script/Fasttext_dir" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
@@ -163,7 +172,7 @@
       <workItem from="1600151457630" duration="354000" />
       <workItem from="1600151835149" duration="1686000" />
       <workItem from="1600153716245" duration="14303000" />
-      <workItem from="1600325242030" duration="3443000" />
+      <workItem from="1600325242030" duration="5777000" />
     </task>
     <servers />
   </component>
