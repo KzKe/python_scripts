@@ -11,9 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a096616d-8094-4802-be2a-988eae6f1f70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms_script/auto_tunning/BayesSearchCV_script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms_script/auto_tunning/BayesianOptimization_script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms_script/auto_tunning/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/tensorboard_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/tensorboard_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/tensorboard_scalar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,7 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.BayesianOptimization_script">
+  <component name="RunManager" selected="Python.tensorboard_image">
     <configuration name="BayesSearchCV_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="argparse_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tensorboard_image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,12 +110,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms_script/tensorboard_visualize" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/argparse_script.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/tensorboard_image.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tensorboard_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms_script/tensorboard_visualize" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/tensorboard_script.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,35 +168,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tqdm_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_scripts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tqdm_script.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tensorboard_image" />
+        <item itemvalue="Python.tensorboard_script" />
         <item itemvalue="Python.BayesianOptimization_script" />
         <item itemvalue="Python.BayesSearchCV_script" />
         <item itemvalue="Python.torchvision_script" />
-        <item itemvalue="Python.argparse_script" />
-        <item itemvalue="Python.tqdm_script" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +192,7 @@
       <workItem from="1600151835149" duration="1686000" />
       <workItem from="1600153716245" duration="14303000" />
       <workItem from="1600325242030" duration="7190000" />
-      <workItem from="1600393451905" duration="7728000" />
+      <workItem from="1600393451905" duration="9505000" />
     </task>
     <servers />
   </component>
@@ -216,22 +216,22 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="506" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.960@0.0.1536.960" timestamp="1600328248369" />
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1600576477025">
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1600645495880">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1600576477025" />
-    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1600576477024">
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1600645495880" />
+    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1600645495878">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1600576477024" />
-    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1600576477023">
+    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1600645495878" />
+    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1600645495877">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1600576477023" />
-    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1600576477025">
+    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1600645495877" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1600645495880">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1600576477025" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1600645495880" />
     <state x="269" y="119" key="SettingsEditor" timestamp="1600308726955">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -244,6 +244,8 @@
     <SUITE FILE_PATH="coverage/python_scripts$torchvision_script.coverage" NAME="torchvision_script Coverage Results" MODIFIED="1600399243370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages_script" />
     <SUITE FILE_PATH="coverage/python_scripts$argparse.coverage" NAME="argparse Coverage Results" MODIFIED="1600152170774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_scripts$BayesianOptimization_script.coverage" NAME="BayesianOptimization_script Coverage Results" MODIFIED="1600576477016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms_script/auto_tunning" />
+    <SUITE FILE_PATH="coverage/python_scripts$tensorboard_script.coverage" NAME="tensorboard_script Coverage Results" MODIFIED="1600644357478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms_script/tensorboard_visualize" />
     <SUITE FILE_PATH="coverage/python_scripts$BayesSearchCV_script.coverage" NAME="BayesSearchCV_script Coverage Results" MODIFIED="1600574128554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms_script/auto_tunning" />
+    <SUITE FILE_PATH="coverage/python_scripts$tensorboard_image.coverage" NAME="tensorboard_image Coverage Results" MODIFIED="1600645492158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms_script/tensorboard_visualize" />
   </component>
 </project>
