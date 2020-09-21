@@ -90,7 +90,7 @@ optimizer = optim.SGD(net.parameters(), lr=0.001, momentum=0.9)
 from torch.utils.tensorboard import SummaryWriter
 
 # default `log_dir`is "runs" - we'll be more specific here
-writer = SummaryWriter('runs/fashion_mnist_experiment_1')
+writer = SummaryWriter('../../packages_script/runs/fashion_mnist_experiment_1')
 
 # get some random training images
 dataiter = iter(trainloader)

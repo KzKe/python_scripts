@@ -15,3 +15,5 @@ writer = SummaryWriter('tlogs')
 '''
 
 writer.add_graph()
+
+# Todo 添加相关的writer.add_graph代码

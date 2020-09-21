@@ -1,4 +1,0 @@
-2020-09-17 15:03:02,555 - logging_script.py[line:69] - INFO: info message
-2020-09-17 15:03:02,556 - logging_script.py[line:70] - WARNING: warn message
-2020-09-17 15:03:02,556 - logging_script.py[line:71] - ERROR: error message
-2020-09-17 15:03:02,556 - logging_script.py[line:72] - CRITICAL: critical message
