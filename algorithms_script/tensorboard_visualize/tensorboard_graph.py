@@ -4,16 +4,21 @@
 # @Time      :2020/9/21 7:49 上午
 # @Author    :Kangke
 
+"""
+添加模型到 tensorboardX
+"""
 
-from torch.utils.tensorboard import SummaryWriter
+import torch
+import torchvision
+from torch.autograd import Variable
+from tensorboardX import SummaryWriter
 
+input_data = Variable(torch.rand(16, 3, 224, 224))
 
-writer = SummaryWriter('tlogs')
+net = torchvision.models.resnet18()
 
-'''
-添加网络结构
-'''
+writer = SummaryWriter(log_dir='./tlogs', comment='resnet18')
 
-writer.add_graph()
+with writer:
+    writer.add_graph(net, (input_data, ))
 
-# Todo 添加相关的writer.add_graph代码
