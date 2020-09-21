@@ -11,10 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a096616d-8094-4802-be2a-988eae6f1f70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/tensorboard_graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/tensorboard_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/tensorboard_scalar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/tensorboard_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/tensorboard_graph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +190,7 @@
       <workItem from="1600151835149" duration="1686000" />
       <workItem from="1600153716245" duration="14303000" />
       <workItem from="1600325242030" duration="7190000" />
-      <workItem from="1600393451905" duration="9505000" />
+      <workItem from="1600393451905" duration="9842000" />
     </task>
     <servers />
   </component>

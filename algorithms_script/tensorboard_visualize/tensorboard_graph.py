@@ -7,8 +7,11 @@
 
 from torch.utils.tensorboard import SummaryWriter
 
+
 writer = SummaryWriter('tlogs')
 
 '''
 添加网络结构
 '''
+
+writer.add_graph()
