@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a096616d-8094-4802-be2a-988eae6f1f70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms_script/sort_methods/sort_script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages_script/pandas_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages_script/pandas_script.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,29 @@
       <recent name="$PROJECT_DIR$/algorithms_script/torch_text_classfication" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sort_script">
+  <component name="RunManager" selected="Python.CNN">
+    <configuration name="CNN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_learning_models/text_classification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_learning_models/text_classification/CNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="itertools_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,35 +166,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tensorboard_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_scripts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms_script/tensorboard_visualize" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/tensorboard_script.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CNN" />
         <item itemvalue="Python.sort_script" />
         <item itemvalue="Python.tensorboard_graph" />
         <item itemvalue="Python.itertools_script" />
         <item itemvalue="Python.tensorboard_image" />
-        <item itemvalue="Python.tensorboard_script" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +191,7 @@
       <workItem from="1600153716245" duration="14303000" />
       <workItem from="1600325242030" duration="7190000" />
       <workItem from="1600393451905" duration="17395000" />
-      <workItem from="1600768997696" duration="11000" />
+      <workItem from="1600768997696" duration="2614000" />
     </task>
     <servers />
   </component>
@@ -215,29 +215,28 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="506" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.960@0.0.1536.960" timestamp="1600328248369" />
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1600768974112">
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1600846594091">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1600768974112" />
-    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1600768974111">
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1600846594091" />
+    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1600846594090">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1600768974111" />
-    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1600768974111">
+    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1600846594090" />
+    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1600846594090">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1600768974111" />
-    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1600768974112">
+    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1600846594090" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1600846594091">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1600768974112" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1600846594091" />
     <state x="269" y="119" key="SettingsEditor" timestamp="1600308726955">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1600308726955" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_scripts$sort_script.coverage" NAME="sort_script Coverage Results" MODIFIED="1600768231142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms_script/sort_methods" />
     <SUITE FILE_PATH="coverage/python_scripts$tqdm_script.coverage" NAME="tqdm_script Coverage Results" MODIFIED="1600162254724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_scripts$argparse_script.coverage" NAME="argparse_script Coverage Results" MODIFIED="1600162761966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_scripts$copy.coverage" NAME="copy Coverage Results" MODIFIED="1600152305877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -246,8 +245,10 @@
     <SUITE FILE_PATH="coverage/python_scripts$BayesianOptimization_script.coverage" NAME="BayesianOptimization_script Coverage Results" MODIFIED="1600576477016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms_script/auto_tunning" />
     <SUITE FILE_PATH="coverage/python_scripts$tensorboard_script.coverage" NAME="tensorboard_script Coverage Results" MODIFIED="1600644357478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms_script/tensorboard_visualize" />
     <SUITE FILE_PATH="coverage/python_scripts$tensorboard_graph.coverage" NAME="tensorboard_graph Coverage Results" MODIFIED="1600694950571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms_script/tensorboard_visualize" />
+    <SUITE FILE_PATH="coverage/python_scripts$CNN.coverage" NAME="CNN Coverage Results" MODIFIED="1600846335299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning_models/text_classification" />
+    <SUITE FILE_PATH="coverage/python_scripts$itertools_script.coverage" NAME="itertools_script Coverage Results" MODIFIED="1600674253946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages_script" />
+    <SUITE FILE_PATH="coverage/python_scripts$sort_script.coverage" NAME="sort_script Coverage Results" MODIFIED="1600768231142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms_script/sort_methods" />
     <SUITE FILE_PATH="coverage/python_scripts$BayesSearchCV_script.coverage" NAME="BayesSearchCV_script Coverage Results" MODIFIED="1600574128554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms_script/auto_tunning" />
     <SUITE FILE_PATH="coverage/python_scripts$tensorboard_image.coverage" NAME="tensorboard_image Coverage Results" MODIFIED="1600645492158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms_script/tensorboard_visualize" />
-    <SUITE FILE_PATH="coverage/python_scripts$itertools_script.coverage" NAME="itertools_script Coverage Results" MODIFIED="1600674253946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/packages_script" />
   </component>
 </project>
