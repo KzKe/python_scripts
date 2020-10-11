@@ -11,31 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a096616d-8094-4802-be2a-988eae6f1f70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms_modules/torch/loss_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages_script/time_script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/Fasttext_text_classification/.ipynb_checkpoints/fasttext_notebook-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/Fasttext_text_classification/.ipynb_checkpoints/fasttext_notebook-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/Fasttext_text_classification/.ipynb_checkpoints/未命名-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/Fasttext_text_classification/.ipynb_checkpoints/未命名-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/Fasttext_text_classification/fasttext_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/Fasttext_text_classification/fasttext_notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/Fasttext_text_classification/fasttext_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/Fasttext_text_classification/fasttext_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/Fasttext_text_classification/未命名.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/Fasttext_text_classification/未命名.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/auto_tunning/BayesSearchCV_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/auto_tunning/BayesSearchCV_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/auto_tunning/BayesianOptimization_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/auto_tunning/BayesianOptimization_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/auto_tunning/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/auto_tunning/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/auto_tunning/auto_tuning_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/auto_tunning/auto_tuning_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/sort_methods/sort_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/sort_methods/sort_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/elephant.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/tensorboard_visualize/elephant.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/tensorboard_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/tensorboard_visualize/tensorboard_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/tensorboard_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/tensorboard_visualize/tensorboard_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/tensorboard_scalar.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/tensorboard_visualize/tensorboard_scalar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/tensorboard_visualize/tlogs/events.out.tfevents.1600694951.KE-MacBook-Pro.local" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/tensorboard_visualize/tlogs/events.out.tfevents.1600694951.KE-MacBook-Pro.local" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/tokenizations/jieba_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/tokenizations/jieba_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/torch/torch_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/torch/torch_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/torch/torch_vision.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/torch/torch_vision.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/torch/torchsnooper_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/torch/torchsnooper_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/torch/torchvision_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/torch/torchvision_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/word2vecs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/word2vecs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/word2vecs/gensim_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/word2vecs/gensim_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_script/word2vecs/gensim_w2v_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_modules/word2vecs/gensim_w2v_read.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +195,8 @@
       <workItem from="1600847003109" duration="345000" />
       <workItem from="1601018014656" duration="829000" />
       <workItem from="1601261472586" duration="1166000" />
-      <workItem from="1602322479931" duration="2406000" />
+      <workItem from="1602322479931" duration="2444000" />
+      <workItem from="1602406953494" duration="284000" />
     </task>
     <servers />
   </component>
@@ -243,22 +221,22 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="506" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.960@0.0.1536.960" timestamp="1600328248369" />
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1602328565361">
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1602377614791">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1602328565361" />
-    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1602328565360">
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1602377614791" />
+    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1602377614790">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1602328565360" />
-    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1602328565359">
+    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1602377614790" />
+    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1602377614790">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1602328565359" />
-    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1602328565360">
+    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1602377614790" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1602377614791">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1602328565360" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1602377614791" />
     <state x="269" y="119" key="SettingsEditor" timestamp="1602323244123">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
