@@ -16,5 +16,5 @@ for i in range(100):
 writer.close()
 
 '''
-运行方法：tensorboard --logdir='algorithms_script/tensorboard_visualize'  
+运行方法：tensorboard --logdir='algorithms_modules/tensorboard_visualize'  
 '''
